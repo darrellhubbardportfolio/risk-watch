@@ -1,0 +1,12 @@
+#shopping-cart {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    background-color: #343a40;
+    color: lightgoldenrodyellow;
+    width: 425px;
+    min-height: 100px;
+}

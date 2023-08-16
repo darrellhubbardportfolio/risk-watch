@@ -1,0 +1,89 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+header {
+    box-shadow: none;
+    position: relative;
+}
+
+#shop {
+    width: 90vw;
+    min-height: 100vh;
+    margin: 100px auto;
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#shopping-catalog {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 85px;
+}
+
+.shopping-catalog-item {
+    min-width: 300px;
+    height: 425px;
+    max-height: 425px;
+    max-width: 300px;
+    border: 1px solid lightgray;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.shopping-catalog-item>:nth-child(1) {
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.shopping-catalog-item>:nth-child(1)> img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shopping-catalog-item>:nth-child(2) {
+    padding: 20px;
+    gap: 8px;
+}
+
+.shopping-catalog-item>:nth-child(2)>:nth-child(1) {
+    color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.shopping-catalog-item>:nth-child(2)>:nth-child(1)> .material-icons {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-catalog-item>:nth-child(2)>:nth-child(2) {
+    color: #343a40;
+}
+
+.shopping-catalog-item>:nth-child(2)>:nth-child(3) {
+    color: black;
+    font-weight: bold;
+}
+
