@@ -34,6 +34,17 @@ nav {
 	justify-content: center;
 }
 
+#open-menu, #close-menu {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	cursor: pointer;
+	color: black;
+	width: 60px;
+	height: 60px;
+}
+
 #navLinks {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
