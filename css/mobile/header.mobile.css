@@ -1,0 +1,31 @@
+
+@media only screen and (min-width: 325px) and (max-width: 800px) {
+    header {
+        height: 425px;
+        background-image: url("./../../assets/background.png");
+        background-position: top center;
+        background-size: cover;
+    }
+    
+    #product-display {
+        position: relative;
+        max-width: 95%;
+        left: 0;
+        bottom: 20px;
+    }
+    
+    #product-display> * {
+        width: 100%;
+    }
+    
+    #product-display-model {
+        font-size: 30px;
+    }
+    
+    #product-display-price, #product-display-weight, #product-display-case, #product-display-case-back, #product-display-case-thickness, #product-display-case-thickness, #product-display-strap, #product-display-case-width {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+}
